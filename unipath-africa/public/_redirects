@@ -1,0 +1,38 @@
+# Clean URLs for the single-page app (each path serves index.html, which renders the right page).
+# /api/* and /sitemap.xml are handled by the Netlify Function; files like /admin.html are served as-is.
+/discover        /index.html  200
+/match           /index.html  200
+/browse          /index.html  200
+/program/*       /index.html  200
+/prepare         /index.html  200
+/prepare/*       /index.html  200
+/track           /index.html  200
+/enroll          /index.html  200
+/enroll/*        /index.html  200
+/help            /index.html  200
+/about           /index.html  200
+/passport        /index.html  200
+/account         /index.html  200
+/account/*       /index.html  200
+/privacy         /index.html  200
+/research        /index.html  200
+/research/*      /index.html  200
+/countries       /index.html  200
+/countries/*     /index.html  200
+/country/*       /index.html  200
+/visa            /index.html  200
+/visa/*          /index.html  200
+/thrive          /index.html  200
+/thrive/*        /index.html  200
+/money          /index.html  200
+/money/*        /index.html  200
+/share          /index.html  200
+/offers         /index.html  200
+/plans           /index.html  200
+/book            /index.html  200
+/search          /index.html  200
+/summary         /index.html  200
+/scholarships    /index.html  200
+
+# Anything else: show the app's friendly “page not found” screen with a real 404 status
+/*               /index.html  404
