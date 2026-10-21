@@ -1,0 +1,7 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+  command = "node scripts/snapshot.mjs"
+
+[functions]
+  node_bundler = "esbuild"
