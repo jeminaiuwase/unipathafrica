@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>UniPath Africa — Your journey to university, made simpler</title>
+  <meta name="description" content="UniPath Africa helps African students discover universities, check eligibility, prepare applications, track deadlines and get ready to enrol — at home and abroad.">
+  <meta name="theme-color" content="#0E5A4B">
+  <meta property="og:title" content="UniPath Africa">
+  <meta property="og:description" content="Find your university. Know your requirements. Manage your applications. Get ready to enrol — all in one place.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>
+    (function(){try{var s=JSON.parse(localStorage.getItem('unipath.state')||'{}').settings||{};var t=s.theme||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.dataset.theme=t;if(s.text==='large')document.documentElement.dataset.text='large';}catch(e){}})();
+  </script>
+</head>
+<body>
+  <a class="skip" href="#app">Skip to content</a>
+  <div id="preview-bar"></div>
+  <div id="announce"></div>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#/" aria-label="UniPath Africa home">
+        <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2.5 9 2.5 12 0v-5"/></svg></span>
+        <span><span id="brand-name">UniPath Africa</span><small>Admissions, simplified</small></span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#/discover" data-nav="discover"><span class="step-n">1</span>Discover</a>
+        <a href="#/match" data-nav="match"><span class="step-n">2</span>Match</a>
+        <a href="#/prepare" data-nav="prepare"><span class="step-n">3</span>Prepare</a>
+        <a href="#/track" data-nav="track"><span class="step-n">4</span>Track</a>
+        <a href="#/enroll" data-nav="enroll"><span class="step-n">5</span>Enrol</a>
+      </nav>
+      <div class="header-tools">
+        <a class="icon-btn" href="#/passport" title="My Admissions Passport" aria-label="My Admissions Passport"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a>
+        <button class="icon-btn" id="settings-btn" title="Display settings" aria-label="Display settings" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"><div class="container page"><p class="muted">Loading UniPath Africa…</p></div></main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="foot-grid">
+        <div>
+          <a class="brand" href="#/"><span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2.5 9 2.5 12 0v-5"/></svg></span><span id="foot-name">UniPath Africa</span></a>
+          <p class="mt2" id="foot-tagline" style="max-width:30em">Your journey to university, made simpler.</p>
+          <p class="small" id="foot-notice"></p>
+        </div>
+        <div><h4>Journey</h4><ul><li><a href="#/discover">Discover</a></li><li><a href="#/match">Match</a></li><li><a href="#/prepare">Prepare</a></li><li><a href="#/track">Track</a></li><li><a href="#/enroll">Enrol</a></li></ul></div>
+        <div><h4>Tools</h4><ul><li><a href="#/prepare/statement">Statement Studio</a></li><li><a href="#/prepare/costs">Cost Planner</a></li><li><a href="#/prepare/scholarships">Scholarships</a></li><li><a href="#/prepare/glossary">Glossary</a></li><li><a href="#/prepare/interview">Interview practice</a></li></ul></div>
+        <div><h4>Support</h4><ul><li><a href="#/help">Help &amp; FAQ</a></li><li><a href="#/research">Help us test</a></li><li><a href="#/account">Sign in / create account</a></li><li><a href="#/passport">My data</a></li><li><a href="#/privacy">Privacy notice</a></li><li><a href="#/about">About</a></li></ul></div>
+      </div>
+      <div class="foot-bottom">
+        <span>© <span id="year"></span> <span id="foot-name-2">UniPath Africa</span> · A student-founded venture by <span id="foot-founder">Peace Ampiire</span></span>
+        <span><a href="admin.html" rel="nofollow">Team login</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <nav class="tabbar" aria-label="Journey">
+    <a href="#/discover" data-nav="discover"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.2 7.8-2.1 6.3-6.3 2.1 2.1-6.3z"/></svg>Discover</a>
+    <a href="#/match" data-nav="match"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>Match</a>
+    <a href="#/prepare" data-nav="prepare"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6h11M9 12h11M9 18h11"/><path d="m3 6 1 1 2-2M3 12l1 1 2-2M3 18l1 1 2-2"/></svg>Prepare</a>
+    <a href="#/track" data-nav="track"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 7v7M12 7v4M16 7v9"/></svg>Track</a>
+    <a href="#/enroll" data-nav="enroll"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2.5 9 2.5 12 0v-5"/></svg>Enrol</a>
+  </nav>
+
+  <button class="fab" id="feedback-fab" aria-label="Give feedback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg><span>Feedback</span></button>
+  <div id="tester-root"></div>
+
+  <!-- Netlify Forms: hidden copies so Netlify detects every form at deploy time. Submissions are sent with JavaScript. -->
+  <div hidden aria-hidden="true">
+    <form name="feedback" data-netlify="true" netlify-honeypot="bot-field"><input name="bot-field"><input name="rating"><input name="page"><input name="task"><textarea name="comment"></textarea><input name="contact"><input name="submittedAt"></form>
+    <form name="research-survey" data-netlify="true" netlify-honeypot="bot-field"><input name="bot-field"><input name="participant"><input name="stakeholderType"><input name="role"><input name="country"><input name="educationLevel"><input name="destination"><input name="consent"><input name="mediaConsent"><textarea name="q1_hardest"></textarea><textarea name="q2_useful"></textarea><textarea name="q3_trust"></textarea><input name="usefulFeatures"><input name="wouldPay"><input name="nps"><textarea name="extra"></textarea><input name="submittedAt"></form>
+    <form name="usability-test" data-netlify="true" netlify-honeypot="bot-field"><input name="bot-field"><input name="participant"><input name="device"><input name="tasksCompleted"><input name="totalSeconds"><textarea name="results"></textarea><input name="submittedAt"></form>
+    <form name="adviser-request" data-netlify="true" netlify-honeypot="bot-field"><input name="bot-field"><input name="name"><input name="email"><input name="phone"><input name="topic"><textarea name="message"></textarea><input name="submittedAt"></form>
+  </div>
+
+  <script src="assets/js/core.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/prepare.js"></script>
+</body>
+</html>
